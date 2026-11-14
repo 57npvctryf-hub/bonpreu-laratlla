@@ -1,0 +1,9 @@
+.env
+.bonpreu-session.json
+invoices/
+.venv/
+__pycache__/
+*.pyc
+.uv/
+dist/
+.playwright/
