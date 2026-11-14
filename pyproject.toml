@@ -1,0 +1,16 @@
+[project]
+name = "bonpreu-invoices-agent"
+version = "0.1.0"
+description = "Mistral agent that logs into the BonpreuEsclat Energia Oficina Virtual and checks the latest invoices"
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-agents>=1.1.0",
+    "playwright>=1.49",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.mistralai.agents]
+entrypoint = "main:agent"
